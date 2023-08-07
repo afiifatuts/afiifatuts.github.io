@@ -48,17 +48,17 @@ nav img {
   cursor: pointer;
 }
 
-nav .navigation{
+nav .navigation {
   display: flex;
 }
 
-#menu-btn{
+#menu-btn {
   width: 30px;
   height: 30px;
   display: none;
 }
 
-#menu-close{
+#menu-close {
   display: none;
 }
 
@@ -81,12 +81,10 @@ nav .navigation ul li a {
   font-weight: 500;
   transition: 0.3s ease;
 }
-nav .navigation ul li a.active ,
+nav .navigation ul li a.active,
 nav .navigation ul li a:hover {
   color: #fdc93b;
 }
-
-
 
 /* Home */
 
@@ -99,7 +97,7 @@ nav .navigation ul li a:hover {
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;    
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding-top: 40px;
@@ -347,7 +345,7 @@ nav .navigation ul li a:hover {
 /* Experts */
 
 #experts {
-  padding: 8vw 8vw ;
+  padding: 8vw 8vw;
   text-align: center;
 }
 
@@ -460,7 +458,7 @@ footer .copyright {
 }
 
 footer .copyright p {
-color: #fff;
+  color: #fff;
 }
 
 footer .copyright .pro-links {
@@ -479,28 +477,118 @@ footer .copyright .pro-links i:hover {
   color: #2c2c2c;
 }
 
+/* Blog */
+#blog-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8vw;
+}
 
-@media(max-width:964px){
-  nav{
+#blog-container .blogs{
+  width: 60%;
+}
+
+#blog-container .blogs img{
+  width: 100%;
+  border-radius: 19px;
+}
+#blog-container .blogs .post{
+padding-bottom: 60px;
+}
+
+#blog-container .blogs .post h3{
+  color: #292929;
+  padding: 15px 0 10px 0;
+}
+#blog-container .blogs .post p{
+  color: #757373;
+  padding-bottom: 20px;
+}
+#blog-container .blogs .post a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: rgb(21, 21, 100);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#blog-container .cate{
+  width: 30%;
+}
+
+#blog-container .cate h2{
+  padding-bottom: 7px;
+}
+
+#blog-container .cate a{
+  text-decoration: none;
+  color: #757373;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+@media (max-width: 475px) {
+  #registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #registration .reminder .time {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Blog  */
+  #blog-container{
+    flex-direction: column;
+  }
+
+  #blog-container .blogs{
+    width: 100%;
+  }
+  #blog-container .cate{
+    width: 100%;
+  }
+}
+
+@media (max-width: 376px) {
+  footer input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 964px) {
+  nav {
     padding: 15px 20px;
   }
 
-  nav img{
+  nav img {
     width: 130px;
   }
 
-  #menu-btn{
+  #menu-btn {
     display: initial;
   }
 
-  #menu-close{
+  #menu-close {
     display: initial;
     font-size: 1.6rem;
     color: #fff;
     padding: 30px 0 20px 20px;
   }
 
-  nav .navigation ul{
+  nav .navigation ul {
     position: absolute;
     top: 0;
     right: -220px;
@@ -508,7 +596,7 @@ footer .copyright .pro-links i:hover {
     height: 100vh;
     background: #234465;
     backdrop-filter: blur(4.5px);
-    border: 1px solid rgba(255, 255, 255,0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -516,7 +604,7 @@ footer .copyright .pro-links i:hover {
     transition: 0.3s ease;
   }
 
-  nav .navigation ul.active{
+  nav .navigation ul.active {
     right: 0;
   }
 
@@ -525,10 +613,10 @@ footer .copyright .pro-links i:hover {
     margin-left: 0;
   }
 
-  #home{
+  #home {
     padding-top: 0;
   }
-  #home h1 p{
+  #home h1 p {
     width: 90%;
   }
 
@@ -539,48 +627,28 @@ footer .copyright .pro-links i:hover {
   #course {
     padding: 8vw 4vw 0 4vw;
   }
-  #registration{
+  #registration {
     margin-top: 8vw;
     padding: 6vh 4vw 6vw 4vw;
   }
 
-  #registration .reminder .time{
+  #registration .reminder .time {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
   }
 
-  #experts{
+  #experts {
     padding: 8vw 8vw 4vw 8vw;
     text-align: center;
   }
 
-  footer .copyright .pro-links{
+  footer .copyright .pro-links {
     margin-top: 15px;
   }
 
+  /* Blog  */
+  #blog-container{
+    padding: 8vw 4vw;
+  }
 }
-
-
-
-@media(max-width:475px){
- #registration{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
- } 
-
- #registration .reminder .time{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
- }
-}
-
-
-
