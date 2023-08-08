@@ -477,274 +477,141 @@ footer .copyright .pro-links i:hover {
   color: #2c2c2c;
 }
 
-/* Tentang */
-#about-container {
-  display: flex;
-  align-items: center;
-  padding: 8vw 8vw 2vw 8vw;
-}
+/* Contact */
 
-#about-container .about-img {
-  width: 40%;
-  padding-right: 60px;
-}
-
-#about-container .about-img img {
-  width: 100%;
-}
-#about-container .about-text {
-  width: 60%;
-}
-
-#about-container .about-text h2 {
-  color: #29303b;
-  padding-bottom: 15px;
-}
-
-#about-container .about-text p {
-  color: #686f7a;
-  font-weight: 300;
-}
-
-#about-container .about-text .about-fe {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 30px;
-}
-
-#about-container .about-text .about-fe img {
-  width: 50px;
-  background-size: cover;
-  background-position: center;
-}
-
-#about-container .about-text .about-fe .fe-text {
-  width: 90%;
-}
-
-#about-container .about-text .about-fe .fe-text h5 {
-  font-size: 16px;
-  color: #29303b;
-}
-
-/* Trust */
-#trust {
-  text-align: center;
+#contact {
   padding: 8vw;
-}
-
-#trust .trust-img {
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#trust .trust-img img {
-  width: 90px;
-  height: auto;
-}
-
-/* Course Inner  */
-#course-inner {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 8vh;
 }
 
-#course-inner h3 {
-  padding: 35px 0 25px 0;
-  color: #29303b;
-}
-#course-inner p {
-  color: #64626e;
-}
-#course-inner hr {
-  height: 1px;
-  background: rgba(236, 226, 229, 0.5);
-  margin-top: 40px;
+#contact .getin {
+  margin-top: 30px;
+  width: 350px;
 }
 
-#course-inner .overview {
-  width: 70%;
+#contact .getin h2 {
+  color: #2c234d;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 0.8;
+  margin-bottom: 16px;
 }
 
-#course-inner .overview .course-img {
+#contact .getin p {
+  color: #686875;
+  line-height: 24px;
+  margin-bottom: 33px;
+  padding-bottom: 25px;
+  border-bottom: 1px soli #e5e5ed;
+}
+
+#contact .getin h3 {
+  color: #2c234d;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#contact .getin .getin-details div {
+  display: flex;
+}
+
+#contact .getin .getin-details div .get {
+  font-size: 16px;
+  line-height: 22px;
+  color: #5838fc;
+  margin-right: 20px;
+}
+
+#contact .getin .getin-details div p {
+  font-size: 14px;
+  border-bottom: none;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+#contact .getin .getin-details .pro-links i {
+  margin-right: 8px;
+}
+
+#contact .form {
+  width: 60%;
+  background: #f7f6fa;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#contact .form h4 {
+  font-size: 24px;
+  color: #2c234d;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+
+#contact .form p {
+  color: #686875;
+  line-height: 24px;
+  padding-bottom: 25px;
+}
+
+#contact .form .form-row {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  height: 60vh;
-  object-fit: cover;
-  border-radius: 12px;
+}
+
+#contact .form .form-row input {
+  width: 48%;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+  background: #fff;
+  color: #7e7c87;
+  outline: none;
+  padding: 20px 30px;
   margin-bottom: 20px;
 }
 
-#course-inner .overview .course-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+#contact .form .form-col input,
+#contact .form .form-col textarea {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+  background: #fff;
+  color: #7e7c87;
+  outline: none;
+  padding: 20px 30px;
+  margin-bottom: 20px;
 }
 
-#course-inner .overview .course-head .c-name {
-  width: 70%;
-}
-
-#course-inner .overview .course-head .c-name h2 {
-  color: #29303b;
-}
-
-#course-inner .overview .course-head .c-name p {
-  font-size: 15px;
-}
-
-#course-inner .overview .course-head span {
-  padding: 16px 22px;
+#contact .form button {
+  font-size: 0.9rem;
+  padding: 13px 25px;
+  background: rgb(21, 21, 100);
   border-radius: 5px;
-  color: #5838fc;
-  font-size: 24px;
-  font-weight: 700;
-  background-color: rgba(88, 56, 252, 0.1);
-}
-
-#course-inner .learn p {
-  font-size: 15px;
-  padding-bottom: 15px;
-}
-
-#course-inner .learn p i {
-  color: #654ce4;
-  font-weight: 700;
-  margin-right: 20px;
-}
-
-#course-inner .tutor {
-  display: flex;
-}
-
-#course-inner .tutor img {
-  width: 70px;
-  height: 70px;
-  background-repeat: 50%;
-  margin-right: 20px;
-}
-
-#course-inner .tutor {
-  font-size: 15px;
-}
-
-#course-inner .enroll {
-  width: 300px;
-  padding: 0 30px 30px 30px;
-  border-radius: 11px;
-  box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
-}
-
-#course-inner .enroll h3 {
-  padding-bottom: 10px;
-}
-
-#course-inner .enroll p {
-  font-size: 15px;
-  color: #64626e;
-  margin: 15px 0;
-}
-
-#course-inner .enroll p i {
-  color: #654ce4;
-  font-weight: 500;
-  margin-right: 18px;
-  width: 16px;
-  height: 16px;
-  line-height: 16px;
-  text-align: center;
-}
-
-#course-inner .enroll .enroll-btn {
-  padding: 25px 0 20px 0;
-  margin: auto;
-  text-align: center;
-}
-
-#course-inner .enroll a {
-  text-emphasis: none;
-  font-size: 0.8rem;
-  padding: 13px 45px;
-  border-radius: 5px;
+  outline: none;
+  border: none;
   font-weight: 600;
+  cursor: pointer;
   color: #fff;
-  background: rgb(50, 50, 136);
 }
 
-@media (max-width: 475px) {
-  #registration {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  #registration .reminder .time {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  /* About  */
-  #about-container {
-    flex-direction: column-reverse;
-  }
-
-  #about-container .about-img {
-    width: 100%;
-    padding-right: 0;
-  }
-
-  #about-container .about-text {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  /* Trust  */
-  #trust .trust-img {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  #trust .trust-img img {
-    width: 60px;
-    margin: 10px 15px;
-    height: auto;
-  }
-
-  /* Course Inner  */
-  #course-inner .overview .course-head .c-name {
-    width: 50%;
-  }
-
-  #course-inner .overview .course-head .c-name h2 {
-    font-size: 22px;
-  }
-  #course-inner .overview .course-head  span {
-    font-size: 22px;
-  }
-
-  #course-inner .enroll{
-    width: 100%;
-  }
+/* Map */
+#map {
+  width: 100%;
+  height: 70vh;
+  margin-bottom: 8vh;
 }
 
-@media (max-width: 376px) {
-  footer input {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+#map iframe {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 964px) {
@@ -826,38 +693,59 @@ footer .copyright .pro-links i:hover {
     margin-top: 15px;
   }
 
-  /* Tentang */
-  #about-container {
-    padding: 8vw 4vw 2vw 4vw;
+  /* Contact  */
+  #contact {
+    padding: 8vw 4vw;
   }
-  #about-container .about-img {
-    padding-right: 30px;
+  #contact .getin {
+    width: 250px;
   }
+}
 
-  /* Trust  */
-  #trust .trust-img img {
-    width: 50px;
-    height: auto;
-  }
-
-  /* Course Inner  */
-  #course-inner {
+@media (max-width: 475px) {
+  #registration {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  #registration .reminder .time {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Contact  */
+  #contact{
     padding: 8vw 4vw;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
   }
 
-  #course-inner .overview {
+  #contact .getin{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact .form{
+    width: 100%;
+    padding: 40px 30px;
+  }
+
+  #contact .form .form-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
   }
 
-  #course-inner .overview .course-img {
+  #contact .form .form-row input{
     width: 100%;
-    height: 100%;
-  }
-  #course-inner .enroll {
-    margin-top: 25px;
   }
 }
