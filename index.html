@@ -3,313 +3,1012 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elearning</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    <title>SoftUni</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="asset/favicon.ico" rel="icon" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Style Css  -->
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/tiny-slider.css" />
     <link rel="stylesheet" href="index.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.7.0.min.js"
-      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Boostrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   </head>
+
   <body>
-    <!-- Navigation -->
-    <nav>
-      <img src="images/softuni-logo.png" alt="" />
-      <div class="navigation">
-        <ul>
-          <i id="menu-close" class="fas fa-times"></i>
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="kurikulum.html">Kurikulum</a></li>
-          <li><a href="kursus.html">Kursus</a></li>
-          <li><a href="corporate.html">Corporate</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="tentang.html">Tentang</a></li>
-        </ul>
-        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
-        <img id="menu-btn" src="images/menu.png" alt="" />
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html" class="logo me-auto"
+          ><img src="images/softuni-logo.png" alt="" class="img-fluid"
+        /></a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="kurikulum.html">Kurikulum</a>
+            </li>
+            <li><a class="nav-link scrollto" href="kursus.html">Kursus</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Corporate</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li class="dropdown">
+                  <a href="corporate.html"
+                    ><span>Corporate</span> <i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Kelas Informasi Teknologi</a></li>
+                    <li><a href="#">Kelas Digital Kreatif</a></li>
+                    <li><a href="#">Kelas Digital Marketing</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Hire Talent(Soon)</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+            <li>
+              <a class="nav-link scrollto" href="tentang.html">Tentang</a>
+            </li>
+            <li>
+              <a class="getstarted scrollto" href="register.html">Masuk</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </nav>
+    </header>
+    <!-- End Header -->
 
     <!-- Home  -->
-
     <section id="home">
-      <h2>
-        Bergabunglah Bersama Program Pendidikan Programmer Berstandar
-        Internasional Terbaik
-      </h2>
-      <p>
-        Pelajari teknologi dan digital dari para ahli dengan standar materi yang
-        telah terlisensi di Eropa
-      </p>
-      <div class="btn">
-        <a class="blue" href="#">Learn More</a>
-        <a class="yellow" href="#">Visit Courses</a>
-      </div>
-    </section>
-
-    <!-- Features -->
-    <!-- Kenapa Harus Berprofesi Sebagai Ahli IT -->
-
-    <!-- Mengapa Harus SoftUni? -->
-    <section id="features">
-      <h1>Mengapa Harus SoftUni?</h1>
-      <div class="fea-base">
-        <div class="fea-box">
-          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-          <h3>Materi Standar Internasional</h3>
-          <p>
-            SoftUni menawarkan kurikulum dengan standar internasional, yang
-            menjamin kualitas dan relevansi pembelajaran global.
-          </p>
-        </div>
-
-        <div class="fea-box">
-          <i class="fa fa-trophy"></i>
-          <h3>Fokus Model Learn-by-doing</h3>
-          <p>
-            SoftUni menggunakan pendekatan belajar dengan cara praktis dan
-            langsung, memungkinkan siswa untuk mengaplikasikan pengetahuan dalam
-            situasi nyata.
-          </p>
-        </div>
-
-        <div class="fea-box">
-          <i class="fa fa-award"></i>
-          <h3>Tutor Tersertifikasi</h3>
-          <p>
-            Tutor-tutor di SoftUni memiliki sertifikasi yang menegaskan keahlian
-            dan kemampuan mereka dalam mengajar.
-          </p>
-        </div>
-
-        <div class="fea-box">
-          <i class="fa fa-award"></i>
-          <h3>Jaminan Pekerjaan*</h3>
-          <p>
-            SoftUni memberikan jaminan pekerjaan bagi lulusan, memberikan
-            peluang karier yang menjanjikan di dunia kerja.
-          </p>
-        </div>
-        <div class="fea-box">
-          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-          <h3>Sertifikat Standar Internasional</h3>
-          <p>
-            Setelah menyelesaikan program, siswa menerima sertifikat dengan
-            standar internasional, meningkatkan pengakuan profesional mereka.
-          </p>
-        </div>
-
-        <div class="fea-box">
-          <i class="fa fa-trophy"></i>
-          <h3>Belajar dimanapun</h3>
-          <p>
-            SoftUni memberikan fleksibilitas untuk belajar di mana saja,
-            memungkinkan akses pengetahuan tanpa batasan geografis.
-          </p>
+      <div class="container">
+        <div class="row align-items-center justify-content-between pt-5">
+          <div class="col-lg-6 text-center text-lg-start pe-lg-5">
+            <h1 class="heading text-white mb-3" data-aos="fade-up">
+              Bergabunglah Bersama Program Pendidikan Programmer Berstandar
+              Internasional Terbaik
+            </h1>
+            <p
+              class="text-white align-items-center mb-5"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Pelajari teknologi dan digital dari para ahli dengan standar
+              materi yang telah terlisensi di Eropa
+            </p>
+            <div
+              class="align-items-center mb-5 mm"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="">
+                <a class="btn-prmr" href="kursus.html">Visit Courses</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="img-wrap">
+              <img
+                src="asset/home_image/img/Asset 34.png"
+                alt="Image"
+                class="img-fluid rounded home-img"
+              />
+              <p style="color: #fdc93b" class="homeimg-text">
+                *Syarat & Ketentuan Berlaku
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+      <!-- Features Start -->
+      <section>
+      <div class="container-xxl feature py-5">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <p
+                class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
+              >
+                Kenapa Harus Berprofesi Sebagai Ahli IT?
+              </p>
+              <h1 class="display-5 mb-4" style="font-weight: 800;">Discover Why We're the Top Choice!</h1>
+              <p class="mb-4">
+                Memilih profesi sebagai ahli IT memiliki banyak keuntungan dan
+                alasan yang mungkin membuat seseorang memilih jalur karir ini.
+                Berikut beberapa alasan mengapa banyak orang memilih untuk menjadi
+                ahli IT:
+              </p>
+              <h4>FREE KELAS PROGRAMMING DASAR</h4>
+              <p style="color: #ffa000">*Syarat dan ketentuan berlaku</p>
+              <a class="btn btn-primary py-3 px-5" href="kursus.html">Gabung</a>
+            </div>
+            <div class="col-lg-6">
+              <div class="row g-4 align-items-center">
+                <div class="col-md-6">
+                  <div class="row g-4">
+                    <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                      <div class="feature-box border rounded p-4">
+                        <i class="bi bi-check-lg" style="font-size: 3rem; color: cornflowerblue;"></i>
+                        <h4 class="mb-3">
+                          Perkiraan KEMNAKER Indonesia butuh 1,97 juta ahli IT
+                          tahun 2025
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                      <div class="feature-box border rounded p-4">
+                        <i class="bi bi-check-lg" style="font-size: 3rem; color: cornflowerblue;"></i>
+                        <h4 class="mb-3">
+                          Tingkat Sumber Daya Manusia IT sampai saat ini masih
+                          kurang
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
+                  <div class="feature-box border rounded p-4">
+                    <i class="bi bi-check-lg" style="font-size: 3rem; color: cornflowerblue;"></i>
+                    <h4 class="mb-3">
+                      Rerata gaji dibidang IT salah satu tertinggi di Indonesia
+                    </h4>
+                  </div>
+                  <div class="feature-box border rounded p-4">
+                    <i class="bi bi-check-lg" style="font-size: 3rem; color: cornflowerblue;"></i>
+                    <h4 class="mb-3">
+                      Kerja di mana saja, dari manapun kamu berada
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- Features End -->
+
+          <!-- ======= Service ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Mengapa Harus SoftUni?</h2>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-xl-4 col-md-6 d-flex align-items-stretch"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="icon-box">
+              <i class="bi bi-globe mb-4" style="font-size: 3rem; color: cornflowerblue;"  ></i>
+              <h4 class="mb-3"><a>Materi Standar Internasional</a></h4>
+              <p>
+                SoftUni menawarkan kurikulum dengan standar internasional,
+                yang menjamin kualitas dan relevansi pembelajaran global.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <div class="icon-box">
+              <i class="bi bi-laptop mb-4" style="font-size: 3rem; color: cornflowerblue;"></i>
+              <h4 class="mb-3"><a>Fokus Model Learn-by-doing</a></h4>
+              <p>
+                SoftUni menggunakan pendekatan belajar dengan cara praktis dan
+                langsung, memungkinkan siswa untuk mengaplikasikan pengetahuan
+                dalam situasi nyata.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <div class="icon-box">
+              <i class="bi bi-person-check mb-4" style="font-size: 3rem; color: cornflowerblue;"></i>
+                <h4 class="mb-3"><a >Tutor Tersertifikasi</a></h4>
+                <p>
+                  Tutor-tutor di SoftUni memiliki sertifikasi yang menegaskan
+                  keahlian dan kemampuan mereka dalam mengajar.
+                </p>
+            </div>
+          </div>
+
+          <div
+            class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <div class="icon-box">
+              <i class="bi bi-briefcase" style="font-size: 3rem; color: cornflowerblue;"></i>
+              <h4 class="mb-3"> <a > Jaminan Pekerjaan*</a></h4>
+              <p>
+                SoftUni memberikan jaminan pekerjaan bagi lulusan, memberikan
+                peluang karier yang menjanjikan di dunia kerja.
+              </p>
+            </div>
+          </div>
+
+          <div
+          class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+        >
+          <div class="icon-box">
+            <i class="bi bi-patch-check" style="font-size: 3rem; color: cornflowerblue;"></i>
+            <h4 class="mb-3"> <a > Sertifikat Standar Internasional</a></h4>
+            <p>
+              Siswa menerima sertifikat
+              dengan standar internasional, meningkatkan pengakuan
+              profesional mereka.
+            </p>
+          </div>
+        </div>
+
+        <div
+        class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-10"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+      >
+        <div class="icon-box">
+          <i class="bi bi-book"  style="font-size: 3rem; color: cornflowerblue;"></i>
+                <h4 class="mb-3"><a >Belajar dimanapun</a> </h4>
+                <p>
+                  SoftUni memberikan fleksibilitas untuk belajar di mana saja,
+                  memungkinkan akses pengetahuan tanpa batasan geografis.
+                </p>
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service -->
+
 
     <!-- Courses -->
-    <section id="course">
-      <h1>Our Popular Courses</h1>
-      <p>Kursus yang akan datang</p>
-      <div class="course-box">
-        <div class="courses">
-          <img src="images/courses1.png" alt="" />
-          <div class="details">
-            <i class="fas fa-calendar"></i>
-            <span>25 Jul 2023</span>
-            <h6>
-              Excel Masterclass: Boosting Productivity and Efficiency with
-              Advanced Techniques
-            </h6>
-            <div class="join">
-              <button>Gabung ></button>
+        <section id="pricing" class="pricing">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>Our Popular Courses</h2>
+              <p>
+                Kursus yang akan datang 
+              </p>
+            </div>
+            
+            <div class="courses">
+              <div class="row">
+             
+    
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                  <div class="box">
+                    <img
+                      src="images/courses1.png"
+                      class="mb-3 img-fluid"
+                      style="width: 100%"
+                      alt=""
+                    />
+                    <a href="kursus-inner.html"
+                      ><h3>
+                        Excel Masterclass: Boosting Productivity and Efficiency with
+                        Advanced Techniques
+                      </h3></a
+                    >
+                    <hr />
+                    <a  href="kursus-inner.html" class="gabung-btn">Buka Course</a>
+                    <a class="courses-price">Rp. 0</a>
+                    <p><i class="bi bi-calendar"></i> 25 Jul 2023</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                  <div class="box">
+                    <img
+                      src="images/courses1.png"
+                      class="mb-3 img-fluid"
+                      style="width: 100%"
+                      alt=""
+                    />
+                    <a href="kursus-inner.html"
+                      ><h3>
+                        Excel Masterclass: Boosting Productivity and Efficiency with
+                        Advanced Techniques
+                      </h3></a
+                    >
+                    <hr />
+                    <a  href="kursus-inner.html" class="gabung-btn">Buka Course</a>
+                    <a class="courses-price">Rp. 0</a>
+                    <p><i class="bi bi-calendar"></i> 25 Jul 2023</p>
+    
+                  </div>
+                </div>
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                  <div class="box">
+                    <img
+                      src="images/courses1.png"
+                      class="mb-3 img-fluid"
+                      style="width: 100%"
+                      alt=""
+                    />
+                    <a href="kursus-inner.html"
+                      ><h3>
+                        Excel Masterclass: Boosting Productivity and Efficiency with
+                        Advanced Techniques
+                      </h3></a
+                    >
+                    <hr />
+                    <a href="kursus-inner.html" class="gabung-btn">Buka Course</a>
+                    <a class="courses-price">Rp. 0</a>
+                    <p><i class="bi bi-calendar"></i> 25 Jul 2023</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+
+<!-- End Courses  -->
+
+
+        <!-- ======= Professional modul ======= -->
+        <section id="pro-modul" class="pro-modul">
+          <div class="container" data-aos="fade-up">
+            <div class="">
+              <h3>Professional Modul</h3>
+              <hr>
+            </div>
+            <div class="row">
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div  class="pro-box d-flex">
+                  <div class="pro-logo">
+                    <img style="width: max-content;" class="img-fluid" src="asset/curriculum_image/8467df8b-5b41-11ed-bef8-e82a44eb9daf.png" alt="">
+                  </div>
+                  <div class="pro-desc">
+                    <h3>Java Developer</h3>
+                    <p class="pro-sub">Professional Program</p>
+                    <p>50++ Kredit | 4 Bulan estimasi</p> 
+                    <p style="font-weight: 500;">Rp. 3.500.000/modul</p>
+                    <p>Dapatkan kesiapan untuk peluang karir dalam bidang 
+                      Java, tanpa pengalaman sebelumnya yang diperlukan.
+                        </p>
+                    <a href="kursus.html" class="buy-btn">Gabung</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div  class="pro-box d-flex">
+                  <div  class="pro-logo">
+                    <img style="width: max-content;" class="img-fluid" src="asset/curriculum_image/0a62546a-5b58-11ed-bef8-e82a44eb9daf.png" alt="">
+                  </div>
+                  <div class="pro-desc">
+                    <h3>Python</h3>
+                    <p class="pro-sub">Professional Program</p>
+                    <p>50++ Kredit | 4 Bulan estimasi</p> 
+                    <p><b class="text-bold">Rp. 3.500.000/modul</b> </p>
+                    <p>Dapatkan kesiapan untuk berkarir dalam bidang Python, 
+                      tanpa pengalaman sebelumnya yang diperlukan. </p>
+                    <a href="kursus.html" class="buy-btn">Gabung </a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div  class="pro-box d-flex">
+                  <div class="pro-logo">
+                    <img style="width: max-content;" class="img-fluid" src="asset/curriculum_image/f1a84db9-5b57-11ed-bef8-e82a44eb9daf.png" alt="">
+                  </div>
+                  <div class="pro-desc">
+                    <h3>Javascript</h3>
+                    <p class="pro-sub">Professional Program</p>
+                    <p>50++ Kredit | 4 Bulan estimasi</p> 
+                    <p><b>Rp. 3.500.000/modul</b> </p>
+                    <p> Dapatkan kesiapan untuk berkarir dalam pengembangan JavaScript, tanpa pengalaman sebelumnya yang diperlukan.</p>
+                    <a href="kursus.html" class="buy-btn">Gabung</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="pro-box d-flex">
+                  <div class="pro-logo">
+                    <img style="width: max-content;" class="img-fluid" src="asset/curriculum_image/4fef53d3-5b49-11ed-bef8-e82a44eb9daf.png" alt="">
+                  </div>
+                  <div class="pro-desc">
+                    <h3>C#/C++</h3>
+                    <p class="pro-sub">Professional Program</p>
+                    <p>50++ Kredit | 4 Bulan estimasi</p> 
+                    <p><b>Rp. 3.500.000/modul</b> </p>
+                    <p> Dapatkan kesiapan untuk berkarir dalam pemrograman C#, tanpa pengalaman sebelumnya yang diperlukan.</p>
+                    <a href="kursus.html" class="buy-btn">Gabung</a>
+                  </div>
+                </div>
+              </div>
+    
+
             </div>
           </div>
-          <div class="cost">Rp 0</div>
+        </section>
+        <!-- End Professional modul -->
+
+                  <!-- ======= Cara mendaftar Section ======= -->
+                  <section id="cta" class="cta">
+                    <div class="container" data-aos="zoom-in">
+                      <div class="row">
+                        <div class="col-lg-9 text-center text-lg-start">
+                          <h3>Bagaimana cara mendaftar?</h3>
+                          <p>
+                            Pelatihan program rekayasa perangkat lunak di SoftUni cocok
+                            untuk pemula dan orang-orang yang memiliki pengalaman awal dalam
+                            pengembangan perangkat lunak. Yang dibutuhkan untuk melamar
+                            program rekayasa perangkat lunak adalah motivasi yang kuat untuk
+                            belajar pengembangan profesional di dunia pemrograman, tingkat
+                            dasar bahasa Inggris dan kemampuan komputer. Aplikasi untuk
+                            program ini terbuka setiap saat. Sebelum setiap penerimaan
+                            diadakan beberapa kursus persiapan "Dasar-Dasar Pemrograman" dan
+                            ujian masuk setelahnya masing-masing. Kamu dapat mengikuti
+                            pelatihan online dari mana saja.
+                          </p>
+            
+                          <p>
+                            Langkah pertama yang perlu dilakukan adalah mengisi formulir
+                            aplikasi setelah mengklik tombol "Gabung" di halaman ini. Dalam
+                            formulir aplikasi yang akan terbuka, Kamu dapat memilih bahasa
+                            pemrograman yang diinginkan untuk memulai studi - C#, Java,
+                            JavaScript atau Python.
+                          </p>
+                        </div>
+                        <div class="col-lg-3 cta-btn-container text-center">
+                          <a class="cta-btn align-middle" href="kursus.html">Gabung</a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- End Cara Mendaftar Section -->
+            
+        
+
+
+
+    <!-- Testimonial Start  -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Testimonials</h2>
         </div>
 
-        <div class="courses">
-          <img src="images/courses2.jpeg" alt="" />
-          <div class="details">
-            <i class="fas fa-calendar"></i>
-            <span>25 Jul 2023</span>
-            <h6>Java Basic Course</h6>
-            <div class="join">
-              <button>Gabung ></button>
+        <div class="row">
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic">
+                <img
+                  src="asset/home_image/testimoni/ividenov.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Iliyan Videnov</h4>
+                <span>Java Developer @ SAP Labs</span>
+                <p>
+                  Saya memutuskan untuk melakukan pemrograman karena saya selalu
+                  tertarik pada komputer, satu-satunya masalah adalah saya
+                  selalu berpikir bahwa pemrograman bukan untuk saya. Sampai
+                  saya menemukan kursus Dasar-dasar Pemrograman gratis, di mana
+                  saya menemukan bahwa segala sesuatunya relatif mudah bagi
+                  saya, tidak membebani saya dengan cara apa pun. Semua kursus
+                  di Software University sangat berguna, tetapi jika saya harus
+                  memilih beberapa, itu adalah OOP, CPC, Struktur Data, dan
+                  Algoritma.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="cost">Rp 0</div>
-        </div>
 
-        <div class="courses">
-          <img src="images/courses3.jpeg" alt="" />
-          <div class="details">
-            <i class="fas fa-calendar"></i>
-            <span>25 Jul 2023</span>
-            <h6>Phyton Basic Course</h6>
-            <div class="join">
-              <button>Gabung ></button>
+          <div
+            class="col-lg-6 mt-4 mt-lg-0"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <div class="member d-flex align-items-start">
+              <div class="pic">
+                <img
+                  src="asset/home_image/testimoni/Konstantin.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Konstantin Gero</h4>
+                <span>Software Engineer @Tesla</span>
+                <p>
+                  Pelajaran terpenting yang saya pelajari dari pendidikan saya
+                  di SoftUni adalah nilai untuk mendapatkan pemahaman yang lebih
+                  dalam tentang konsep-konsep dasar. Tidak hanya setiap pengajar
+                  memiliki pengetahuan yang luas tentang materi, tetapi mereka
+                  juga selalu bersemangat untuk menjawab pertanyaan.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="cost">Rp 0</div>
-        </div>
 
-        <div class="courses">
-          <img src="images/courses1.png" alt="" />
-          <div class="details">
-            <i class="fas fa-calendar"></i>
-            <span>25 Jul 2023</span>
-            <h6>
-              Excel Masterclass: Boosting Productivity and Efficiency with
-              Advanced Techniques
-            </h6>
-            <div class="join">
-              <button>Gabung ></button>
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic">
+                <img
+                  src="asset/home_image/testimoni/Tugay.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Tugay Emin</h4>
+                <span>Blockchain Engineer @LimeChain</span>
+                <p>
+                  Hal saya sukai tentang program di SoftUni adalah program ini
+                  terdiri dari serangkaian kursus, dari tingkat pemula hingga
+                  mahir, dan siswa berpartisipasi dalam satu per satu, yang
+                  membantu mereka fokus pada satu mata pelajaran pada satu
+                  waktu.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="cost">Rp 0</div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic">
+                <img
+                  src="asset/home_image/testimoni/preslav-mihaylov.webp"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Preslav Mihaylov</h4>
+                <span>Software Engineer @Uber</span>
+                <p>
+                  Saya memutuskan untuk mendalami pemrograman dengan SoftUni
+                  karena menurut saya profesi ini sangat menarik dan menawarkan
+                  banyak tantangan. Yang saya suka dari program adalah saya
+                  harus terus berkembang dan belajar hal-hal baru.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- Testimonial End  -->
 
-    <!-- Registration -->
-    <section id="registration">
-      <div class="reminder">
-        <p>Get 100 Online Courses for Free</p>
-        <h1>Register To Get It</h1>
-        <div class="time">
-          <div class="date">
-            18 <br />
-            Days
+        <!-- Awards  Start -->
+        <section id="awards" class="awards">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>Awards Kami</h2>
+              <p>
+                Kami bangga dengan komitmen kami terhadap keunggulan dan pertumbuhan
+                berkelanjutan di bidang pendidikan dan teknologi. Dedikasi ini telah
+                membawa kami meraih berbagai penghargaan dan pengakuan yang
+                menunjukkan dampak dan kontribusi kami terhadap industri.
+              </p>
+            </div>
+    
+            <div class="row" >
+              <div class="logos">
+                <div class="logos-slide">
+                  <img src="asset/home_image/awards/career-show-award.png" />
+                  <img src="asset/home_image/awards/career-show-awards-2022.png" />
+                  <img src="asset/home_image/awards/golden-hearth.png" />
+                  <img src="asset/home_image/awards/my-love-marks.png" />
+                  <img src="asset/home_image/awards/forbes-BA-2022.png" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="date">
-            23 <br />
-            Hours
           </div>
-          <div class="date">
-            06 <br />
-            Minutes
-          </div>
-          <div class="date">
-            58 <br />
-            Second
+        </section>
+    
+        <!-- Awards  Start -->
+
+       <!-- Facts Start -->
+       <section id="fact" class="fact"  data-wow-delay="0.3s">
+        <div class="container-fluid facts my-5 py-5" >
+          <div class="container py-5" >
+            <div class="row g-5 fact-con" >
+              <div
+                class="col-sm-6 col-lg-3 text-center wow fadeIn fact-text"
+                data-wow-delay="0.3s"
+              >
+                Bersiap Shifting Career bersama SoftUni?
+              </div>
+  
+              <div
+                class="col-sm-6 col-lg-3 text-center wow fadeIn"
+                data-wow-delay="0.3s"
+              >
+                <i class="fa fa-check fa-3x mb-3"></i>
+                <h1 class="display-4" ><span data-toggle="counter-up">17</span>K+</h1>
+                <span class="fs-5">Lulusan di LinkedIn</span>
+                <hr class="bg-white w-25 mx-auto mb-0" />
+                <a href="https://www.linkedin.com/school/software-university-softuni/people/" target="_blank" class="btn btn-primary">See On LinkedIn</a>
+              </div>
+              <div
+                class="col-sm-6 col-lg-3 text-center wow fadeIn"
+                data-wow-delay="0.5s"
+              >
+                <i class="fa fa-users-cog fa-3x mb-3"></i>
+                <h1 class="display-4" ><span data-toggle="counter-up">14</span>K+</h1>
+                <span class="fs-5">Project di Github</span>
+                <hr class="bg-white w-25 mx-auto mb-0" />
+                <a href="https://github.com/search?q=softuni" target="_blank" class="btn btn-primary">See On Github</a>
+              </div>
+              <div
+                class="col-sm-6 col-lg-3 text-center wow fadeIn"
+                data-wow-delay="0.7s"
+              >
+                <i class="fa fa-award fa-3x mb-3"></i>
+                <h1 class="display-4" ><span data-toggle="counter-up">35</span>M+</h1>
+                <span class="fs-5">Exercises dikumpulkan</span>
+                <hr class="bg-white w-25 mx-auto mb-0" />
+                <a href="https://judge.softuni.org/submissions" class="btn btn-primary">See In Judge</a>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- Facts End -->
+  
+
+    <!-- Koneksi Start -->
+    <section>
+
+    <div class="section ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 class="heading text-primary"></h2>
+          </div>
+        </div>
+
+        <h1>SoftUni Alumni Started Job At</h1>
+        <hr>
+        <div class="row alumni">
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/microsoft-logo.png" />
+          </div>
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/tesla-logo.png" />
+          </div>
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/uber-logo.png" />
+          </div>
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/chaosgroup-logo.png" />
+          </div>
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/cocacola-logo.png" />
+          </div>
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/hbc-logo.png" />
+          </div>
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/shwartz-logo.png"  />
+          </div>
+          <div class="col-lg-3 col-md-6 align-items-center alumni-img" >
+            <img class="img-fluid" src="asset/home_image/partner/vmware-logo.png"  />
+          </div>
+          <div class="col-lg-12 text-center mt-2">
+            <h2>dan masih banyak lagi</h2>
+         
+          </div>
+
+        </div>
+
+        </div>
       </div>
-      <div class="form">
-        <h3>Create Free Accound NOW !</h3>
-        <input type="text" placeholder="Name" name="" id="" />
-        <input type="text" placeholder="Email Address" name="" id="" />
-        <input type="password" placeholder="Password" name="" id="" />
-        <div class="btn">
-          <a href="" class="yellow">Sumbit Here</a>
+    </div>
+  </section>
+
+    <!-- Koneksi End -->
+
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div
+            class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
+          >
+            <div class="content">
+              <h3>SoftUni di panggung Internasional</h3>
+              <p>
+                Software SoftUni dibuat di Bulgaria pada tahun 2013 sebagai proyek paling serius di negara tersebut untuk pendidikan dan pembuatan pengembang perangkat lunak. Itu didirikan dan dikelola oleh para insinyur perangkat lunak sendiri yang tahu persis apa kebutuhan perusahaan pemberi kerja, dan di sisi lain, program, pelatihan, dan praktik apa yang dibutuhkan para peserta.
+
+                Pada tahun 2019, SoftUni mengambil langkah pertama untuk memperluas model bisnisnya di luar negara asalnya dengan mengadakan pelatihan yang sukses di Rumania, Singapura, Filipina, dan Polandia, memberikan pelatihan pemrograman gratis serta kurikulum rekayasa perangkat lunak yang komprehensif.
+                
+                Pada tahun 2021, SoftUni meluncurkan inisiatif SoftUni Global, yang bertujuan untuk menyediakan konten pembelajaran yang berkualitas bagi mereka yang ingin mendalami pemrograman dari mana saja di dunia.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex  mt-2">
+          <div
+            class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
+          >
+            <div class="content">
+              <h3>Jadilah bagian dari revolusi digital global bersama kami</h3>
+              <p>
+                Kami menciptakan ahli pemrograman nyata dan membantu mereka memulai karir sukses yang diinginkan. Sejak 2013, kami telah melatih puluhan ribu anak muda yang kini bekerja di industri IT. Kami berusaha untuk menjadi bagian dari revolusi digital global dan berkontribusi untuk membangun era digital baru dengan mengajar generasi baru pengembang perangkat lunak dan pakar IT.
+              </p>
+              <a href="kursus.html" class="btn btn-primary">Daftar Kursus</a>
+            </div>
+          </div>
+
+         
         </div>
       </div>
     </section>
+    <!-- End Why Us Section -->
 
-    <!-- Profiles -->
-    <section id="experts">
-      <h1>Comunity Experts</h1>
-      <p>Replenish man have thing gathering kights yielding shall yp</p>
-      <div class="expert-box">
-        <div class="profile">
-          <img src="images/pro1.webp" alt="" />
-          <h6>Ema Irnik</h6>
-          <p>Phyton & Algorithm Expert</p>
-          <div class="pro-links">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
+
+       <!-- ======= Frequently Asked Questions Section ======= -->
+       <section id="faq" class="faq mt-5">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+  
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  class="collapse"
+                  data-bs-target="#faq-list-1"
+                  >Apakah kursus persiapan pemrograman benar-benar <b>GRATIS?</b> 
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div
+                  id="faq-list-1"
+                  class="collapse show"
+                  data-bs-parent=".faq-list"
+                >
+                  <p>
+                    Kursus Programming Basics dapat benar <b>GRATIS</b> dengan membayar
+                    biaya komitmen, jika kamu ingin mengikuti <b>Ujian Sertifikasi
+                    dari SoftUni Pusat</b> maka uang akan dikonversi menjadi biaya
+                    ujian. dan apabila <b>Tidak</b> mengikuti <b>Ujian Sertifikasi SoftUni
+                    Pusat</b> maka kami akan <b>mengembalikan Biaya Komitmen (GRATIS)</b>.
+                  </p>
+                </div>
+              </li>
+  
+              <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-2"
+                  class="collapsed"
+                  >Apakah saya perlu memiliki komputer?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                  <p >Kamu memerlukan komputer / laptop untuk akses online ke materi, latihan secara real time, dan juga akan membutuhkannya selama latihan praktis. <span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Disarankan untuk memiliki Laptop dengan Spesifikasi minimal <strong>Core i3 / Sejenisnya</strong> dan <strong>Ram 4gb (Rekomendasi 8gb)</strong></p>		
+                </div>
+              </li>
+  
+              <li data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-3"
+                  class="collapsed"
+                  >Apakah bahasa asing penting untuk mengikuti kursus?
+                  <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                  <p>Selama kelas online akan digunakan bahasa Indonesia, sedangkan semua presentasi yang digunakan akan dalam bahasa Inggris berdasarkan program Software University Pusat.</p>
+                </div>
+              </li>
+  
+              <li data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-help-circle icon-help"></i>
+                <a
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq-list-4"
+                  class="collapsed"
+                  >Apakah saya wajib membayar untuk mengikuti ujian? <i class="bx bx-chevron-down icon-show"></i
+                  ><i class="bx bx-chevron-up icon-close"></i
+                ></a>
+                <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                      <p><strong>Tidak</strong>. Jika kamu merasa tidak cukup siap untuk mengikuti ujian di akhir kursus, 
+                          uang komitmen yang telah disetor akan dikembalikan secara penuh 100%. Dalam hal ini, kami menyarankan 
+                          kamu untuk mendaftar di kursus serupa berikutnya dan memperkuat pengetahuan kamu.</p>
+                </div>
+              </li>
+  
+  
+              <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i>
+                  <a
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-list-5"
+                    class="collapsed"
+                    >Apa itu biaya komitmen?<i class="bx bx-chevron-down icon-show"></i
+                    ><i class="bx bx-chevron-up icon-close"></i
+                  ></a>
+                  <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                      <p>Biaya komitmen dibutuhkan supaya kamu serius dalam mengikuti proses belajar programming dengan menyelesaikan kelas sampai selesai, 
+                          dan akan dikembalikan di akhir kelas bersama dengan sertifikat.</p>	
+  
+                  </div>
+                </li>
+
+              </ul>
+              <a href="faq.html"><div class="btn-prmr mt-2 text-white">See More</div></a>
           </div>
         </div>
+      </section>
+      <!-- End Frequently Asked Questions Section -->
+  
+  
+ 
+ 
 
-        <div class="profile">
-          <img src="images/pro2.webp" alt="" />
-          <h6>Ema Irnik</h6>
-          <p>Phyton & Algorithm Expert</p>
-          <div class="pro-links">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-        </div>
-
-        <div class="profile">
-          <img src="images/pro3.webp" alt="" />
-          <h6>Ema Irnik</h6>
-          <p>Phyton & Algorithm Expert</p>
-          <div class="pro-links">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-      <div class="footer-col">
-        <h3>Links</h3>
-        <li>Tentang Kami</li>
-        <li>Kurikulum</li>
-        <li>Kursus</li>
-        <li>Blog</li>
-        <li>Kontak</li>
-        <li>FAQ</li>
-      </div>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid footer py-5 wow fadeIn"
+        style="  background-color: #234465;"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+              <h4 class="text-white mb-4">Links</h4>
+              <a class="btn btn-link" href="tentang.html">Tentang Kami</a>
+              <a class="btn btn-link" href="kurikulum.html">Kurikulum</a>
+              <a class="btn btn-link" href="kursus.html">Kursus</a>
+              <a class="btn btn-link" href="blog.html">Blog</a>
+              <a class="btn btn-link" href="#contact">Kontak</a>
+              <a class="btn btn-link" href="faq.html">FAQ</a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h4 class="text-white mb-4">Social Media</h4>
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.instagram.com/softuni.indonesia"
+                >Instagram</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.tiktok.com/@softuni.indonesia"
+                >Tiktok</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.facebook.com/softuni.indonesia"
+                >Facebook</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.linkedin.com/company/softuni-indonesia/"
+                >LinkedIn</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.youtube.com/channel/UCWLOv3Amj-XuWi_TyjpvL0g"
+                >Youtube</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h4 class="text-white mb-4">Masih bingung terkait pilihanmu?</h4>
+              <p class="text-white">GABUNG kami segera dan konsultasikan karirmu!</p>
+              <div class="position-relative w-100">
+               
+                <div class=" d-flex align-items-end section-header aos" data-aos="fade-up">
+                  <div class="d-flex px-3">
+                    <a href="https://api.whatsapp.com/send?phone=62811973545" class="">
+                      <div class="flex-fill">
+                        <div class="d-flex justify-content-center">
+                         <i class="bi bi-whatsapp" style="font-size: 4rem; color: cornflowerblue;"></i>
+                        </div>
+                        <h6 class="mt-4 text-center"><b>WA 1</b></h6>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="d-flex px-3 align-items-center justify-content-center">
+                    <a href="https://api.whatsapp.com/send?phone=628113771477" class="">
+                      <div class="flex-fill">
+                        <div class="d-flex justify-content-center">
+                         <i class="bi bi-whatsapp" style="font-size: 4rem; color: cornflowerblue;"></i>
+                        </div>
+                        <h6 class="mt-4 text-center"><b>WA 2</b></h6>
+                      </div>
+                    </a>
+                  </div>
+                </div>
 
-      <div class="footer-col">
-        <h3>Social Media</h3>
-        <li>Instagram</li>
-        <li>Tiktok</li>
-        <li>Facebook</li>
-        <li>LinkedIn</li>
-        <li>Youtube</li>
-      </div>
 
-      <div class="footer-col">
-        <h3>Social Media</h3>
-        <li>Instagram</li>
-        <li>Tiktok</li>
-        <li>Facebook</li>
-        <li>LinkedIn</li>
-        <li>Youtube</li>
-      </div>
-
-      <div class="footer-col">
-        <h3>Newstletter</h3>
-        <p>You can trust us. we only send promo offers,</p>
-        <div class="subscribe">
-          <input type="text" placeholder="Your Email Address" />
-          <a href="#" class="yellow">SUBSCRIBE</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- Footer End -->
 
-      <div class="copyright">
-        <p>SoftUni.id</p>
-        <div class="pro-links">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin-in"></i>
+      <!-- Copyright Start -->
+      <div class="container-fluid copyright py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">SoftUni.id</a> 2023
+            </div>
+          </div>
         </div>
       </div>
+      <!-- Copyright End -->
     </footer>
 
+    <!-- Footer -->
+
+    <!-- Untuk slider awards dan koneksi  -->
     <script>
-      $(`#menu-btn`).click(function () {
-        $(`nav .navigation ul`).addClass(`active`);
-      });
-      $(`#menu-close`).click(function () {
-        $(`nav .navigation ul`).removeClass(`active`);
-      });
-    </script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+      </script>
+
+
+      <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/navbar.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/kurikulum.js"></script>
   </body>
 </html>
