@@ -904,6 +904,13 @@ section{
   margin: 0 40px;
 }
 
+@media (max-width: 964px) {
+  .awards .row img{
+    height: 50px;
+    margin: 0 10px;
+  }
+  
+}
 
 
 
@@ -2154,4 +2161,37 @@ padding-bottom: 60px;
 
 .visi .nav .nav-link.active h5 i {
   color: #FFFFFF !important;
+}
+
+/* Tentang  */
+
+.home-tentang h1{
+  font-size: 35px;
+}
+
+.home-tentang p{
+  font-size: 15px;
+}
+
+
+@media (max-width: 964px) {
+  /* Post  */
+  .home-tentang .container{
+    margin-top: 2rem;
+    
+  }
+  .home-tentang h1{
+    text-align: left !important;
+    font-size: 20px;
+  }
+  .home-tentang p{
+    text-align: left !important;
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .home-tentang iframe{
+    margin-top: 0;
+   width: 340px;
+   height: 200px;
+  }
 }
